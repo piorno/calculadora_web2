@@ -4,7 +4,7 @@ WORKDIR /home/node/front
 
 COPY express_app/package*.json ./
 
-# RUN npm i
+RUN npm i
 
 COPY express_app/ .
 
